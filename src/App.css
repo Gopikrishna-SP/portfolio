@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+}
+
+
+/* -------------------------------------------x--------------------------------- */
+
+
+.menu:hover  .menu-content{
+    display: block;
+    position: absolute;
+    overflow: hidden;  
+}
+
+
+.menu-content a{
+    display: block;
+    margin: 2px;
+    border-radius: 2px;
+    background-color:#252324 ;
+    color: white;
+    text-decoration: none;
+    text-align: center;  
+    padding: 5px; 
+}
+
+
+.menu-content{
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+    width: 150px;
+    background-color: #252324;
+    right:5px;   
+    box-shadow: 0px 2px 9px -2px white; 
+}
+
+
+.menu-button{
+    border: none;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Brush Script MT';
+    margin-left: 10px;
+}
+
+
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252324;
+    margin: 0px;
+    padding: 0px;
+    position:fixed;
+}
+
+
+/* -------------------------------------x-------------------------- */
+
+.name{
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+}
+
+
+.about-name p{
+    font-size: 30px;
+    color: white;
+}
+
+
+.about-name{
+   width: fit-content;
+   display: flex;
+    align-items: center;
+    
+}
+
+.hire-button a{
+    text-decoration: none;
+    color: #252324;
+}
+
+
+.hire-button {
+    border: 2px solid white;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    color:#252324;
+    font-weight: bolder;
+    background: none;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 60px;
+    border-radius: 40px;
+    background-color: white;
+    padding: 13px 15px 13px 15px ;
+    box-shadow: 0px 2px 9px -2px white; 
+}
+
+
+.about-image{
+    border: none;       
+}
+
+
+.about{
+    height: 550px;
+    width: 100%;
+    background-color: #252324;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.about-content-flex h3{
+    margin: 20px;
+    margin-top: 30px;
+    display: inline;
+    font-size: 2em;
+}
+
+
+
+.about-content-flex{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    height: 250px;
+    width: 80%;
+    color: #252324;
+    
+}
+
+
+.about-content{
+    display: flex;
+    justify-content: center;   
+}
+
+
+/* -----------------------------------------x---------------------------------- */
+
+
+.box{
+    font-size: 32px;
+    font-weight: lighter;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px -2px gray; 
+}
+
+
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 600px;
+    width: fit-content;   
+}
+
+
+.skill h3{
+    margin-top: 30px;
+    margin: 20px;
+    display: inline;
+    font-size: 32px;
+}
+
+
+.skill{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-bottom: 50px;
+}
+
+
+/* ------------------------------x-------------------------- */
+
+
+.certificate-name{
+    font-size: 22px;
+    display: inline-block;
+}
+
+
+.certificate-detail{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.certificate-content h3{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+    margin: 20px;
+    display: inline;
+}
+
+
+.certificate-content{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+/* -------------------------------x----------------------- */
+
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+.footer{
+    background-color: #252324;
+}

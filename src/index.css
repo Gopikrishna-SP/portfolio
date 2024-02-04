@@ -1,0 +1,129 @@
+.App{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+}
+
+
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    overflow:hidden;
+}
+
+
+.main_header *{
+    margin: 0px;
+    display:inline;
+}
+
+.main_header{
+    width: fit-content;
+    margin: 20px;
+    color: white;
+}
+
+.hire{
+    display: inline;
+}
+
+.out_intro img{
+    height: 300px;
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.out_intro{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url('');
+    background-size:auto;
+    background-position: center;
+}
+
+.main_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.skill_grid div{
+    text-align: center;
+    padding-top: 15px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid;
+    
+    
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border: 1px solid;
+    width: fit-content;
+}
+
+.project button{
+    display: inline;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.proj_img{
+    border : 1px solid;
+    height: 300px;
+    width: 500px;
+}
+
+.main_project h2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.proj_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.main_education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
